@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bgCyanBright.underline("\nQuiz Compition\n"));
+console.log(chalk.bgCyan.underline("\nQuiz Compition\n"));
 const question = await inquirer.prompt([
     {
         name: "answer1",
